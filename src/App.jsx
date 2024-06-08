@@ -7,7 +7,7 @@ import DetailPage from "./pages/DetailPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/renzan-store">
       <Routes>
         <Route path="/" element={<CardPage />} />
         <Route path="/detail/:id" element={<DetailPage />} />
